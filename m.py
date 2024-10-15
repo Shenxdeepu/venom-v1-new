@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7543594921:AAEb0Qs9usGggKGl0Q-iZ-JimDzJhtv01e0')
+bot = telebot.TeleBot('7662989854:AAFbBlPQjcwoQ0YNPlmvntMrFhvwjfdEcKk')
 
 # Admin user IDs
-admin_id = ["5894556386"]
+admin_id = ["6388438896"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -375,7 +375,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @venomXcrazy'''
+✅BUY :- @MRSHENDEEPU'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -400,9 +400,9 @@ Vip 🌟 :
 -> Concurrents Attack : 5
 
 Pr-ice List💸 :
-Day-->80 Rs
-Week-->400 Rs
-Month-->1000 Rs
+Day-->60 Rs
+Week-->350 Rs
+Month-->1400 Rs
 '''
     bot.reply_to(message, response)
 
